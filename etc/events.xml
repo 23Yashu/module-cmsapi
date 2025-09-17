@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+
+    <!-- Page save/delete -->
+    <event name="cms_page_save_after">
+        <observer name="devtools_cmsapi_clear_cache_page" instance="DevTools\CmsApi\Observer\CmsCacheClearObserver" />
+    </event>
+    <event name="cms_page_delete_after">
+        <observer name="devtools_cmsapi_clear_cache_page" instance="DevTools\CmsApi\Observer\CmsCacheClearObserver" />
+    </event>
+
+    <!-- Block save/delete -->
+    <event name="cms_block_save_after">
+        <observer name="devtools_cmsapi_clear_cache_block" instance="DevTools\CmsApi\Observer\CmsCacheClearObserver" />
+    </event>
+    <event name="cms_block_delete_after">
+        <observer name="devtools_cmsapi_clear_cache_block" instance="DevTools\CmsApi\Observer\CmsCacheClearObserver" />
+    </event>
+
+</config>
