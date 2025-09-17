@@ -38,7 +38,8 @@ composer require devtools/module-cmsapi
 ```bash
 bin/magento module:enable DevTools_CmsApi
 bin/magento setup:upgrade
-bin/magento cache:flush
+bin/magento cache:flush ```
+
 
 ### Usage
 **REST Endpoint**
