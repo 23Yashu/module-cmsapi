@@ -29,11 +29,13 @@ This module has been tested with [Mark Shust's Docker Magento setup](https://git
    composer require devtools/module-cmsapi
 If you’re installing directly from a GitHub repo:
 
+```bash
 composer config repositories.devtools-cmsapi vcs https://github.com/23Yashu/module-cmsapi.git
 composer require devtools/module-cmsapi
 
 2. **Enable the module**
 
+```bash
 bin/magento module:enable DevTools_CmsApi
 bin/magento setup:upgrade
 bin/magento cache:flush
