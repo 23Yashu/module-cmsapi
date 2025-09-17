@@ -33,6 +33,7 @@ composer config repositories.devtools-cmsapi vcs https://github.com/23Yashu/modu
 composer require devtools/module-cmsapi
 
 2. **Enable the module**
+
 bin/magento module:enable DevTools_CmsApi
 bin/magento setup:upgrade
 bin/magento cache:flush
