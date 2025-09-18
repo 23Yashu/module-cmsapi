@@ -107,3 +107,26 @@ Contributions, forks, and extensions are welcome! 🎉
 
 ### License
 This project is open-sourced software licensed under the MIT license.
+
+
+##Author's Note -
+If you are using Mark Shust's Docker setup, the above steps might not install the module in the Magento. In case you get stuck, please try to follow these steps -
+1. From project root:
+
+```bash
+docker exec -e COMPOSER_MEMORY_LIMIT=-1 magento-phpfpm-1 sh -lc 'composer install --no-interaction --prefer-dist'
+```
+
+2. If adding the module for the first time:
+
+```bash
+docker exec -e COMPOSER_MEMORY_LIMIT=-1 magento-phpfpm-1 sh -lc 'composer require devtools/module-cmsapi:dev-main --no-interaction --prefer-dist'
+```
+
+3. Lastly:
+
+```bash
+docker exec magento-phpfpm-1 sh -lc 'bin/magento setup:upgrade'
+```
+
+
