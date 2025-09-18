@@ -24,15 +24,9 @@ This module has been tested with [Mark Shust's Docker Magento setup](https://git
 1. **Require via Composer**
 
 
-   ```bash
-   composer require devtools/module-cmsapi
-   ```
-If you’re installing directly from a GitHub repo:
-
-```bash
-composer config repositories.devtools-cmsapi vcs https://github.com/23Yashu/module-cmsapi.git
-composer require devtools/module-cmsapi
-```
+ ```bash
+ composer require devtools/module-cmsapi
+ ```
 
 2. **Enable the module**
 
