@@ -23,7 +23,6 @@ This module has been tested with [Mark Shust's Docker Magento setup](https://git
 
 1. **Require via Composer**
 
-   If this repo is public on GitHub:
 
    ```bash
    composer require devtools/module-cmsapi
