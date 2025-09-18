@@ -1,6 +1,8 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
 
+    <preference for="DevTools\CmsApi\Api\CmsPageInterface"
+                type="DevTools\CmsApi\Model\CmsPage" />
     <type name="DevTools\CmsApi\Model\CmsPage">
         <plugin name="cms_api_page_plugin" type="DevTools\CmsApi\Plugin\CmsPagePlugin" />
     </type>
