@@ -1,25 +1,24 @@
 {
-  "name": "devtools/module-cmsapiplugin",
+  "name": "devtools/module-cmsapi",
   "description": "Extension plugin for DevTools_CmsApi to modify CMS API responses",
   "type": "magento2-module",
   "license": "MIT",
   "authors": [
     {
-      "name": "Your Name",
-      "email": "you@example.com"
+      "name": "Yashasvi Vashistha",
+      "email": "yvashistha23@gmail.com"
     }
   ],
   "require": {
     "php": ">=7.4",
-    "magento/framework": ">=103.0.0",
-    "devtools/module-cmsapi": "*"
+    "magento/framework": ">=103.0.0"
   },
   "autoload": {
     "files": [
       "registration.php"
     ],
     "psr-4": {
-      "DevTools\\CmsApiPlugin\\": ""
+      "DevTools\\CmsApi\\": ""
     }
   }
 }
