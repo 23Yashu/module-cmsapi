@@ -109,7 +109,7 @@ Contributions, forks, and extensions are welcome! 🎉
 This project is open-sourced software licensed under the MIT license.
 
 
-##Author's Note -
+## Author's Note -
 If you are using Mark Shust's Docker setup, the above steps might not install the module in the Magento. In case you get stuck, please try to follow these steps -
 1. From project root:
 
