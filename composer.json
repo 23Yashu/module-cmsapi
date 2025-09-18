@@ -20,5 +20,7 @@
     "psr-4": {
       "DevTools\\CmsApi\\": ""
     }
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
