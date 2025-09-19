@@ -94,6 +94,9 @@ Request Body Parameters
 }
 ```
 
+<img width="663" height="433" alt="Screenshot 2025-09-19 at 11 39 38 AM" src="https://github.com/user-attachments/assets/3850124f-aaa3-4e43-9048-df6af2cc5391" />
+
+
 ### Extending
 This module was written with extensibility in mind.
 You can extend or modify the response by creating your own Plugin or Observer in your project.
